@@ -1,0 +1,8 @@
+{
+  "name": "sdlc-autopilot",
+  "version": "0.1.0",
+  "description": "Anthropic's AI-native SDLC playbook with a twist: Jira picks the work, Figma draws it, GitHub ships it through a worktree + PR, Vercel deploys to production after human PR approval, and incidents become new Jira stories.",
+  "author": { "name": "Marc Daou" },
+  "license": "MIT",
+  "keywords": ["sdlc", "jira", "figma", "github", "vercel", "supabase", "worktree"]
+}

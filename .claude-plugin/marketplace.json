@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sdlc-autopilot",
+  "description": "AI-native SDLC autopilot plugin for Claude Code",
+  "owner": { "name": "Marc Daou" },
+  "plugins": [
+    {
+      "name": "sdlc-autopilot",
+      "description": "AI-native SDLC loop: Jira story -> intent.md -> Figma + spec.md -> worktree build + PR -> merge + Vercel production deploy -> incident.md -> new Jira stories. Human gates at intent, spec, PR and incident.",
+      "author": { "name": "Marc Daou" },
+      "category": "development",
+      "source": "./sdlc-autopilot"
+    }
+  ]
+}
